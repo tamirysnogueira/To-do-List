@@ -30,7 +30,13 @@
 <br>
 
 ### 📝 Licença
-O projeto contém a licença MIT. Para mais informações acesse [LICENSE]().
+O projeto contém a licença MIT. Para mais informações acesse [LICENSE](https://github.com/tamirysnogueira/To-do-List/blob/master/LICENSE).
+
+<br>
+
+### 👉🏻 Vercel
+Para acessar o projeto clique:
+- [Vercel](https://to-do-list-kohl-six.vercel.app/)
 
 <br>
 
