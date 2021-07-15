@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+
+    <main>
+        <div id="bloco1">
+            <form action="">
+                <input type="text" id="buscar" placeholder="Buscar por tarefa ">
+                <img src="img/loupe.png" alt="Buscar" onclick="pesquisar()">
+            </form>
+
+            <div id="div_buscar">
+               
+            </div>
+        </div>
+
+        <div id="bloco2">
+            <div id="container">
+                <h1>Lista de Tarefas</h1>
+
+                <img src="" alt="">
+            
+                <form action="">
+                    <input type="text" placeholder="Adicionar uma nova tarefa" id="tarefa" value="" onfocus="this.value='';" data-ls-module="charCounter" maxlength="35">
+                    <button onclick="setarTarefa()" type="button" id="adicionar">Adicionar</button>
+                </form>
+                    
+                <div class="lista">
+                    <ul id="ul">
+                    </ul>
+                </div>
+
+                <div id="limpar">
+                    <button id="remover" onclick="remover()">Remover tudo</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    
+    <script src="svg-inject.min.js"></script>
+    <script>
+        SVGInject(document.querySelectorAll("img.injectable"));
+    </script>
+    <script src="js/lista.js"></script>
+</body>
+
+</html>
